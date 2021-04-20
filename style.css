@@ -102,8 +102,8 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    border: solid 1px #000;
     border-radius: 100%;
+    background-color: crimson;
 }
 
 .circle-big {
@@ -117,12 +117,15 @@
 
 .second{
     animation-delay: 1s;
+    background-color: coral
 }
 .third{
     animation-delay: 2s;
+    background-color: blue;
 }
 .fourth{
     animation-delay: 3s;
+    background-color: brown;
 }
 
 @keyframes scale{
